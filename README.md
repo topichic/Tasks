@@ -281,10 +281,10 @@ erDiagram
     }
     
     %% Отношения
-    USERS ||--o{ POSTS : creates}
-    USERS ||--o{ COMMENTS : writes}
-    USERS ||--o{ LIKES : gives}
-    USERS ||--o{ SUBSCRIPTIONS : follows}
+    USERS ||--o{ POSTS : creates
+    USERS ||--o{ COMMENTS : writes
+    USERS ||--o{ LIKES : gives
+    USERS ||--o{ SUBSCRIPTIONS : follows
     USERS ||--o{ SUBSCRIPTIONS : is_followed_by
     
     POSTS ||--o{ COMMENTS : has
